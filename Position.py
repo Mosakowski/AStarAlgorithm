@@ -7,14 +7,13 @@ class Position:
         match move:
             case "up":
                 self.y_value = self.y_value + 1
-                return self
+                return self.y_value
             case "down":
                 self.y_value = self.y_value - 1
-                return self
+                return self.y_value
             case "left":
                 self.x_value = self.x_value - 1
-                return self
+                return self.x_value
             case "right":
                 self.x_value = self.x_value + 1
-                return self
-
+                return self.x_value
