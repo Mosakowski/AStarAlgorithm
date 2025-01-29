@@ -20,4 +20,5 @@ class Kratka:
         self.position = Position.change_position(self.position, move)
 
     def __str__(self):
-        return f"Kratka(name={self.name}, position=({self.position.x_value}, {self.position.y_value}), parent={self.parent}, value={self.value})"
+        #return f"Kratka(name={self.name}, position=({self.position.x_value}, {self.position.y_value}), parent={self.parent}, value={self.value}, id={self.id})"
+        return f"Kratka(position=({self.position.x_value}, {self.position.y_value}))"
